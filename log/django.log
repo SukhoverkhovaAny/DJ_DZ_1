@@ -1,0 +1,10 @@
+INFO 2023-12-19 20:27:18,458 autoreload 9748 6744 Watching for file changes with StatReloader
+INFO 2023-12-19 20:27:32,567 views 9748 7224 Main page accessed
+INFO 2023-12-19 20:27:32,576 basehttp 9748 7224 "GET /main/ HTTP/1.1" 200 779
+WARNING 2023-12-19 20:27:34,679 log 9748 7224 Not Found: /main/image/cat.jpg
+WARNING 2023-12-19 20:27:34,681 basehttp 9748 7224 "GET /main/image/cat.jpg HTTP/1.1" 404 2466
+INFO 2023-12-19 20:27:44,815 views 9748 11984 About_me page accessed
+INFO 2023-12-19 20:27:44,819 basehttp 9748 11984 "GET /me/ HTTP/1.1" 200 784
+INFO 2023-12-19 20:29:04,170 autoreload 6860 12112 Watching for file changes with StatReloader
+INFO 2023-12-19 20:29:10,960 views 6860 11324 Main page accessed
+INFO 2023-12-19 20:29:10,962 basehttp 6860 11324 "GET /main/ HTTP/1.1" 200 806
