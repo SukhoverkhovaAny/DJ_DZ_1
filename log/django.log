@@ -8,3 +8,602 @@ INFO 2023-12-19 20:27:44,819 basehttp 9748 11984 "GET /me/ HTTP/1.1" 200 784
 INFO 2023-12-19 20:29:04,170 autoreload 6860 12112 Watching for file changes with StatReloader
 INFO 2023-12-19 20:29:10,960 views 6860 11324 Main page accessed
 INFO 2023-12-19 20:29:10,962 basehttp 6860 11324 "GET /main/ HTTP/1.1" 200 806
+INFO 2024-01-24 19:04:23,322 autoreload 3868 10312 Watching for file changes with StatReloader
+INFO 2024-01-24 19:05:19,101 views 3868 6448 Main page accessed
+INFO 2024-01-24 19:05:19,102 basehttp 3868 6448 "GET /main/ HTTP/1.1" 200 789
+WARNING 2024-01-24 19:05:24,122 log 3868 6448 Not Found: /main/myproject/image/cat.jpg
+WARNING 2024-01-24 19:05:24,126 basehttp 3868 6448 "GET /main/myproject/image/cat.jpg HTTP/1.1" 404 3303
+WARNING 2024-01-24 19:05:25,569 log 3868 6448 Not Found: /favicon.ico
+WARNING 2024-01-24 19:05:25,570 basehttp 3868 6448 "GET /favicon.ico HTTP/1.1" 404 3252
+INFO 2024-01-24 19:13:18,813 autoreload 2668 804 Watching for file changes with StatReloader
+INFO 2024-01-24 19:14:01,725 autoreload 2668 804 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\urls.py changed, reloading.
+INFO 2024-01-24 19:14:02,889 autoreload 6344 3752 Watching for file changes with StatReloader
+INFO 2024-01-24 19:14:14,708 basehttp 6344 8684 "GET /client/25 HTTP/1.1" 301 0
+INFO 2024-01-24 19:14:15,326 basehttp 6344 884 "GET /client/25/ HTTP/1.1" 200 182
+INFO 2024-01-24 19:14:26,473 basehttp 6344 6800 "GET /client/22/ HTTP/1.1" 200 785
+INFO 2024-01-24 19:14:41,236 basehttp 6344 8860 "GET /client/27/ HTTP/1.1" 200 182
+INFO 2024-01-24 19:14:59,042 basehttp 6344 4172 "GET /admin HTTP/1.1" 301 0
+INFO 2024-01-24 19:14:59,302 basehttp 6344 7804 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-24 19:15:00,900 basehttp 6344 7804 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-01-24 19:15:20,851 autoreload 6344 3752 D:\training\7.Django\DZ\DZ_1\myproject\myproject\settings.py changed, reloading.
+INFO 2024-01-24 19:15:22,752 autoreload 2748 2148 Watching for file changes with StatReloader
+INFO 2024-01-24 19:18:29,605 basehttp 2748 6196 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-24 19:20:09,409 autoreload 7064 5052 Watching for file changes with StatReloader
+INFO 2024-01-24 19:20:13,731 basehttp 7064 2144 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-24 19:20:30,033 basehttp 7064 7344 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-24 19:20:30,239 basehttp 7064 7344 "GET /admin/ HTTP/1.1" 200 5953
+INFO 2024-01-24 19:23:04,044 autoreload 7064 5052 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:23:07,261 autoreload 8096 7528 Watching for file changes with StatReloader
+INFO 2024-01-24 19:23:47,721 autoreload 8096 7528 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:26:07,427 autoreload 11380 4384 Watching for file changes with StatReloader
+INFO 2024-01-24 19:26:27,305 basehttp 11380 6088 "GET /admin/ HTTP/1.1" 200 7534
+INFO 2024-01-24 19:26:52,835 basehttp 11380 7444 "GET /admin/myapp_1/client/ HTTP/1.1" 200 14303
+INFO 2024-01-24 19:26:54,548 basehttp 11380 7444 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:27:04,508 basehttp 11380 7700 "GET /admin/myapp_1/order/ HTTP/1.1" 200 12468
+INFO 2024-01-24 19:27:04,573 basehttp 11380 7700 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:27:14,135 basehttp 11380 2364 "GET /admin/myapp_1/product/ HTTP/1.1" 200 18810
+INFO 2024-01-24 19:27:14,192 basehttp 11380 2364 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:27:23,753 basehttp 11380 11996 "GET /admin/myapp_1/order/ HTTP/1.1" 200 12468
+INFO 2024-01-24 19:27:23,898 basehttp 11380 11996 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:27:29,306 basehttp 11380 8804 "GET /admin/myapp_1/client/ HTTP/1.1" 200 14303
+INFO 2024-01-24 19:27:29,485 basehttp 11380 8804 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:27:35,171 basehttp 11380 9692 "GET /admin/myapp_1/product/ HTTP/1.1" 200 18810
+INFO 2024-01-24 19:27:35,241 basehttp 11380 9692 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:28:43,907 autoreload 11380 4384 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:31:09,846 autoreload 3668 8612 Watching for file changes with StatReloader
+INFO 2024-01-24 19:32:16,107 autoreload 3668 8612 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:32:18,781 autoreload 9316 11104 Watching for file changes with StatReloader
+INFO 2024-01-24 19:35:13,891 autoreload 6796 1124 Watching for file changes with StatReloader
+INFO 2024-01-24 19:35:45,750 autoreload 6796 1124 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:35:46,869 autoreload 3752 1252 Watching for file changes with StatReloader
+INFO 2024-01-24 19:39:48,380 autoreload 3752 1252 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:39:56,579 autoreload 5824 11112 Watching for file changes with StatReloader
+INFO 2024-01-24 19:40:04,820 basehttp 5824 9200 "GET /admin/myapp_1/product/ HTTP/1.1" 200 21585
+INFO 2024-01-24 19:40:05,121 basehttp 5824 9200 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:40:16,754 basehttp 5824 9472 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:40:16,811 basehttp 5824 9472 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:40:25,010 basehttp 5824 9472 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:40:25,065 basehttp 5824 9472 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:41:09,415 autoreload 5824 11112 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:41:10,416 autoreload 7592 2720 Watching for file changes with StatReloader
+INFO 2024-01-24 19:41:23,962 autoreload 7592 2720 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:41:26,187 autoreload 7164 1212 Watching for file changes with StatReloader
+INFO 2024-01-24 19:41:32,988 basehttp 7164 11916 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:41:33,140 basehttp 7164 11916 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-24 19:41:37,742 log 7164 11236 Internal Server Error: /admin/myapp_1/client/22/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 331, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2024-01-24 19:41:37,752 basehttp 7164 11236 "GET /admin/myapp_1/client/22/change/ HTTP/1.1" 500 142979
+INFO 2024-01-24 19:41:46,487 basehttp 7164 7836 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+ERROR 2024-01-24 19:41:50,416 log 7164 7836 Internal Server Error: /admin/myapp_1/client/26/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 331, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2024-01-24 19:41:50,459 basehttp 7164 7836 "GET /admin/myapp_1/client/26/change/ HTTP/1.1" 500 142979
+INFO 2024-01-24 19:41:53,330 basehttp 7164 7836 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:42:05,482 autoreload 7164 1212 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:42:06,743 autoreload 7472 2564 Watching for file changes with StatReloader
+INFO 2024-01-24 19:42:09,548 basehttp 7472 5028 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:42:09,623 basehttp 7472 5028 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-24 19:42:11,015 log 7472 5028 Internal Server Error: /admin/myapp_1/client/22/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 331, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_registered) specified for Client. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2024-01-24 19:42:11,027 basehttp 7472 5028 "GET /admin/myapp_1/client/22/change/ HTTP/1.1" 500 142922
+INFO 2024-01-24 19:42:20,583 basehttp 7472 9160 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:42:30,893 autoreload 7472 2564 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:42:31,925 autoreload 2060 8120 Watching for file changes with StatReloader
+INFO 2024-01-24 19:42:34,642 basehttp 2060 4016 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:42:34,820 basehttp 2060 4016 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:42:36,986 basehttp 2060 1080 "GET /admin/myapp_1/client/22/change/ HTTP/1.1" 200 11750
+INFO 2024-01-24 19:42:37,117 basehttp 2060 1080 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:42:44,424 basehttp 2060 1080 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:42:44,504 basehttp 2060 1080 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-24 19:42:46,104 log 2060 11624 Internal Server Error: /admin/myapp_1/order/2/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 309, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2024-01-24 19:42:46,117 basehttp 2060 11624 "GET /admin/myapp_1/order/2/change/ HTTP/1.1" 500 149269
+INFO 2024-01-24 19:42:48,880 basehttp 2060 11624 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:44:00,844 autoreload 2060 8120 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:44:02,344 autoreload 7220 5596 Watching for file changes with StatReloader
+INFO 2024-01-24 19:44:06,173 basehttp 7220 6168 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:44:06,233 basehttp 7220 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-24 19:44:08,158 log 7220 6168 Internal Server Error: /admin/myapp_1/order/2/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 309, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2024-01-24 19:44:08,170 basehttp 7220 6168 "GET /admin/myapp_1/order/2/change/ HTTP/1.1" 500 149269
+INFO 2024-01-24 19:44:10,314 basehttp 7220 6168 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:44:12,069 basehttp 7220 6168 "GET /admin/myapp_1/product/ HTTP/1.1" 200 21585
+INFO 2024-01-24 19:44:12,125 basehttp 7220 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:44:13,601 basehttp 7220 6168 "GET /admin/myapp_1/product/11/change/ HTTP/1.1" 200 11749
+INFO 2024-01-24 19:44:13,872 basehttp 7220 6168 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:44:17,896 basehttp 7220 6388 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:44:17,952 basehttp 7220 6388 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:44:19,257 basehttp 7220 6388 "GET /admin/myapp_1/client/24/change/ HTTP/1.1" 200 11750
+INFO 2024-01-24 19:44:19,314 basehttp 7220 6388 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:44:22,300 basehttp 7220 6388 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:44:22,353 basehttp 7220 6388 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-01-24 19:44:23,856 log 7220 6388 Internal Server Error: /admin/myapp_1/order/4/change/
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 835, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 651, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 309, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\forms\models.py", line 204, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1944, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1802, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1837, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\contrib\admin\options.py", line 837, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2024-01-24 19:44:23,867 basehttp 7220 6388 "GET /admin/myapp_1/order/4/change/ HTTP/1.1" 500 149269
+INFO 2024-01-24 19:44:25,780 basehttp 7220 6388 "GET /admin/myapp_1/order/ HTTP/1.1" 200 15183
+INFO 2024-01-24 19:45:10,826 autoreload 7220 5596 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:45:12,095 autoreload 11908 704 Watching for file changes with StatReloader
+INFO 2024-01-24 19:45:14,923 basehttp 11908 10884 "GET /admin/myapp_1/order/ HTTP/1.1" 200 14184
+INFO 2024-01-24 19:45:15,176 basehttp 11908 10884 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:45:17,388 basehttp 11908 6468 "GET /admin/myapp_1/order/1/change/ HTTP/1.1" 200 16158
+INFO 2024-01-24 19:45:17,497 basehttp 11908 6468 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:45:27,882 basehttp 11908 3332 "GET /admin/myapp_1/client/ HTTP/1.1" 200 17521
+INFO 2024-01-24 19:45:27,953 basehttp 11908 3332 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-01-24 19:45:49,642 autoreload 11908 704 D:\training\7.Django\DZ\DZ_1\myproject\myapp_1\admin.py changed, reloading.
+INFO 2024-01-24 19:45:50,609 autoreload 2596 7852 Watching for file changes with StatReloader
+INFO 2024-01-25 19:53:38,889 autoreload 12376 8472 Watching for file changes with StatReloader
+INFO 2024-01-25 19:56:09,758 autoreload 5176 13300 Watching for file changes with StatReloader
+ERROR 2024-01-25 19:56:52,918 exception 5176 2776 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-01-25 19:56:53,752 base 5176 2776 Session data corrupted
+WARNING 2024-01-25 19:56:53,820 log 5176 2776 Bad Request: /main/
+WARNING 2024-01-25 19:56:53,822 basehttp 5176 2776 "GET /main/ HTTP/1.1" 400 78322
+INFO 2024-01-25 19:56:54,383 basehttp 5176 12680 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-01-25 19:56:54,448 basehttp 5176 9536 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2024-01-25 19:56:55,110 basehttp 5176 9536 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-01-25 19:56:56,769 basehttp 5176 12364 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+ERROR 2024-01-25 19:56:58,279 exception 5176 12364 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-01-25 19:56:58,351 base 5176 12364 Session data corrupted
+WARNING 2024-01-25 19:56:58,366 log 5176 12364 Bad Request: /favicon.ico
+WARNING 2024-01-25 19:56:58,368 basehttp 5176 12364 "GET /favicon.ico HTTP/1.1" 400 78133
+ERROR 2024-01-25 19:57:20,667 exception 5176 12324 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-01-25 19:57:20,791 base 5176 12324 Session data corrupted
+WARNING 2024-01-25 19:57:20,808 log 5176 12324 Bad Request: /me/
+WARNING 2024-01-25 19:57:20,809 basehttp 5176 12324 "GET /me/ HTTP/1.1" 400 78306
+INFO 2024-01-25 19:57:20,923 basehttp 5176 10888 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:57:20,936 basehttp 5176 12268 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-25 19:57:20,977 basehttp 5176 10888 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:57:21,132 basehttp 5176 10888 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+ERROR 2024-01-25 19:57:21,341 exception 5176 10888 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\training\7.Django\DZ\DZ_1\venv\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-01-25 19:57:21,422 base 5176 10888 Session data corrupted
+WARNING 2024-01-25 19:57:21,441 log 5176 10888 Bad Request: /favicon.ico
+WARNING 2024-01-25 19:57:21,442 basehttp 5176 10888 "GET /favicon.ico HTTP/1.1" 400 78131
+INFO 2024-01-25 19:58:18,437 autoreload 11728 10060 Watching for file changes with StatReloader
+INFO 2024-01-25 19:58:23,952 views 11728 932 Main page accessed
+WARNING 2024-01-25 19:58:23,964 base 11728 932 Session data corrupted
+INFO 2024-01-25 19:58:23,999 basehttp 11728 932 "GET /main/ HTTP/1.1" 200 10533
+INFO 2024-01-25 19:58:24,559 basehttp 11728 8280 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:24,576 basehttp 11728 8280 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+WARNING 2024-01-25 19:58:24,719 base 11728 932 Session data corrupted
+WARNING 2024-01-25 19:58:24,733 log 11728 932 Not Found: /main/myproject/image/cat.jpg
+WARNING 2024-01-25 19:58:24,734 basehttp 11728 932 "GET /main/myproject/image/cat.jpg HTTP/1.1" 404 13203
+INFO 2024-01-25 19:58:24,870 basehttp 11728 932 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:24,879 basehttp 11728 8280 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:24,996 views 11728 932 Main page accessed
+WARNING 2024-01-25 19:58:25,017 base 11728 932 Session data corrupted
+INFO 2024-01-25 19:58:25,039 basehttp 11728 932 "GET /main/ HTTP/1.1" 200 10532
+INFO 2024-01-25 19:58:25,127 basehttp 11728 8280 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:25,153 basehttp 11728 13012 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2024-01-25 19:58:25,164 base 11728 932 Session data corrupted
+WARNING 2024-01-25 19:58:25,177 log 11728 932 Not Found: /main/myproject/image/cat.jpg
+WARNING 2024-01-25 19:58:25,178 basehttp 11728 932 "GET /main/myproject/image/cat.jpg HTTP/1.1" 404 13202
+WARNING 2024-01-25 19:58:25,853 base 11728 7000 Session data corrupted
+WARNING 2024-01-25 19:58:25,870 log 11728 7000 Not Found: /favicon.ico
+WARNING 2024-01-25 19:58:25,871 basehttp 11728 7000 "GET /favicon.ico HTTP/1.1" 404 13134
+INFO 2024-01-25 19:58:29,921 views 11728 7000 About_me page accessed
+WARNING 2024-01-25 19:58:29,962 base 11728 7000 Session data corrupted
+INFO 2024-01-25 19:58:29,984 basehttp 11728 7000 "GET /me/ HTTP/1.1" 200 10529
+WARNING 2024-01-25 19:58:49,956 base 11728 12552 Session data corrupted
+INFO 2024-01-25 19:58:49,975 basehttp 11728 12552 "GET /client/25 HTTP/1.1" 301 0
+WARNING 2024-01-25 19:58:50,769 base 11728 11620 Session data corrupted
+INFO 2024-01-25 19:58:50,907 basehttp 11728 11620 "GET /client/25/ HTTP/1.1" 200 9980
+INFO 2024-01-25 19:58:50,969 basehttp 11728 11620 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:50,983 basehttp 11728 12412 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:50,996 basehttp 11728 11620 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:58:51,169 basehttp 11728 11620 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-01-25 19:58:54,595 base 11728 11620 Session data corrupted
+INFO 2024-01-25 19:58:54,617 basehttp 11728 11620 "GET /client/22 HTTP/1.1" 301 0
+WARNING 2024-01-25 19:58:54,670 base 11728 12412 Session data corrupted
+INFO 2024-01-25 19:58:54,927 basehttp 11728 12412 "GET /client/22/ HTTP/1.1" 200 10588
+WARNING 2024-01-25 19:59:12,879 base 11728 12144 Session data corrupted
+WARNING 2024-01-25 19:59:12,899 log 11728 12144 Not Found: /client_sorted/22/
+WARNING 2024-01-25 19:59:12,901 basehttp 11728 12144 "GET /client_sorted/22/ HTTP/1.1" 404 13158
+INFO 2024-01-25 19:59:13,052 basehttp 11728 12144 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:13,054 basehttp 11728 8772 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:13,079 basehttp 11728 12144 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:13,222 basehttp 11728 8772 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-01-25 19:59:28,970 base 11728 13056 Session data corrupted
+INFO 2024-01-25 19:59:28,989 basehttp 11728 13056 "GET /client_sorted/22/10 HTTP/1.1" 301 0
+WARNING 2024-01-25 19:59:29,091 base 11728 7460 Session data corrupted
+INFO 2024-01-25 19:59:29,136 basehttp 11728 7460 "GET /client_sorted/22/10/ HTTP/1.1" 200 10550
+WARNING 2024-01-25 19:59:50,782 base 11728 13168 Session data corrupted
+INFO 2024-01-25 19:59:50,931 basehttp 11728 13168 "GET /product_update/2 HTTP/1.1" 200 11088
+INFO 2024-01-25 19:59:50,997 basehttp 11728 13168 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:51,023 basehttp 11728 6404 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:51,156 basehttp 11728 6404 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-25 19:59:51,413 basehttp 11728 6404 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-01-25 20:00:04,479 base 11728 9564 Session data corrupted
+INFO 2024-01-25 20:00:04,522 basehttp 11728 9564 "GET /product_update_id/ HTTP/1.1" 200 11086
+INFO 2024-01-25 20:01:44,941 basehttp 11728 8168 "GET /__debug__/render_panel/?store_id=2394ed0f1ac64801afcaf3c866850abe&panel_id=TemplatesPanel HTTP/1.1" 200 13794
+INFO 2024-01-25 20:01:53,631 basehttp 11728 11212 "GET /__debug__/render_panel/?store_id=2394ed0f1ac64801afcaf3c866850abe&panel_id=SQLPanel HTTP/1.1" 200 14757
+INFO 2024-01-25 20:02:02,083 basehttp 11728 3712 "GET /__debug__/render_panel/?store_id=2394ed0f1ac64801afcaf3c866850abe&panel_id=HistoryPanel HTTP/1.1" 200 25589
+INFO 2024-01-25 20:02:02,671 basehttp 11728 3712 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330

@@ -8,7 +8,6 @@ from django.core.files.storage import FileSystemStorage
 from django.shortcuts import redirect
 
 
-
 logger = logging.getLogger(__name__)
 
 
